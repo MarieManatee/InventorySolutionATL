@@ -1,4 +1,4 @@
-fetch("items.json")
+fetch("inventory.json")
     .then((response) => response.json())
     .then((items) => {
         const list = document.querySelector("#inventory");
