@@ -1,2 +1,3 @@
 # InventorySolutionATL
-This is a potential inventory tracking solution, wherein the problems are that:
+This is a potential inventory tracking solution, wherein the problems are that: there are a number of unique inventory items consumed at a variable rate. Each item has a purchase id and a name. There are subsections of the item instances that have the same lot number and expiration date, and lot to lot parameters. These items have a par level, and need to be ordered when at or below the par level. 
+The lot to lot parameters are: who is assigned the lot to lot, when are they assigned the lot to lot, who completed the lot to lot, when did they complete the lot to lot, on what instruments did they complete the lot to lot, and if the lot is currently inventory. 
