@@ -4,7 +4,7 @@ fetch("inventory.json")
         const list = document.querySelector("#inventory");
         items.forEach((item) => {
             const newItem = document.createElement("li");
-            item.textContent= 
+            newItem.textContent= 
                 '${item["Reagent Name"]} | Instrument: ${item.Instrument} | Side: ${item.Side} | Par: ${item.Par}'
             list.appendChild(newItem);
         });
