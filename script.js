@@ -1,8 +1,8 @@
 fetch("inventory.json")
     .then((response) => response.json())
-    .then((items) => {
+    .then((inventory) => {
         const list = document.querySelector("#inventory");
-        items.forEach((item) => {
+        inventory.forEach((item) => {
             const newItem = document.createElement("li");
             newItem.textContent= 
                 '${item["Reagent Name"]} | Instrument: ${item.Instrument} | Side: ${item.Side} | Par: ${item.Par}'
