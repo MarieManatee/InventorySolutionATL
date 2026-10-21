@@ -1,5 +1,488 @@
 [
-    {"name": "A1c_E", "Instrument": "CH", "Side":"1", "Par":"2"},
-    {"name": "Acet", "Instrument": "CH", "Side":"Both", "Par":"1.5"},
-    {"name": "Alb", "Instrument": "CH", "Side":"Both", "Par":"2"}
+  {
+    "Reagent": "A1c_E",
+    "Side": "1",
+    "Inst": "CH",
+    "Par": "2"
+  },
+  {
+    "Reagent": "Acet",
+    "Side": "B",
+    "Inst": "CH",
+    "Par": "1.5"
+  },
+  {
+    "Reagent": "Alb",
+    "Side": "B",
+    "Inst": "CH",
+    "Par": "2"
+  },
+  {
+    "Reagent": "ALP_2c",
+    "Side": "B",
+    "Inst": "CH",
+    "Par": "2"
+  },
+  {
+    "Reagent": "ALT",
+    "Side": "B",
+    "Inst": "CH",
+    "Par": "2"
+  },
+  {
+    "Reagent": "Amm",
+    "Side": "B",
+    "Inst": "CH",
+    "Par": "2"
+  },
+  {
+    "Reagent": "Amp",
+    "Side": "B",
+    "Inst": "CH",
+    "Par": "1.5"
+  },
+  {
+    "Reagent": "Amy_2",
+    "Side": "B",
+    "Inst": "CH",
+    "Par": "2"
+  },
+  {
+    "Reagent": "AST",
+    "Side": "B",
+    "Inst": "CH",
+    "Par": "2"
+  },
+  {
+    "Reagent": "B2M",
+    "Side": "2",
+    "Inst": "CH",
+    "Par": "2"
+  },
+  {
+    "Reagent": "Bnz",
+    "Side": "B",
+    "Inst": "CH",
+    "Par": "1.5"
+  },
+  {
+    "Reagent": "Brb",
+    "Side": "B",
+    "Inst": "CH",
+    "Par": "1.5"
+  },
+  {
+    "Reagent": "Ca_2",
+    "Side": "B",
+    "Inst": "CH",
+    "Par": "2"
+  },
+  {
+    "Reagent": "Chol_2",
+    "Side": "B",
+    "Inst": "CH",
+    "Par": "2"
+  },
+  {
+    "Reagent": "CK_L",
+    "Side": "B",
+    "Inst": "CH",
+    "Par": "2"
+  },
+  {
+    "Reagent": "Co2_c",
+    "Side": "B",
+    "Inst": "CH",
+    "Par": "2"
+  },
+  {
+    "Reagent": "Coc",
+    "Side": "B",
+    "Inst": "CH",
+    "Par": "1.5"
+  },
+  {
+    "Reagent": "DBIL2",
+    "Side": "B",
+    "Inst": "CH",
+    "Par": "2"
+  },
+  {
+    "Reagent": "Dgn",
+    "Side": "B",
+    "Inst": "CH",
+    "Par": "1"
+  },
+  {
+    "Reagent": "eCrea3",
+    "Side": "B",
+    "Inst": "CH",
+    "Par": "2"
+  },
+  {
+    "Reagent": "Etoh",
+    "Side": "B",
+    "Inst": "CH",
+    "Par": "2"
+  },
+  {
+    "Reagent": "Fen2",
+    "Side": "B",
+    "Inst": "CH",
+    "Par": "2"
+  },
+  {
+    "Reagent": "Gent",
+    "Side": "B",
+    "Inst": "CH",
+    "Par": "1"
+  },
+  {
+    "Reagent": "GluH_3",
+    "Side": "B",
+    "Inst": "CH",
+    "Par": "2"
+  },
+  {
+    "Reagent": "Hapt_2",
+    "Side": "2",
+    "Inst": "CH",
+    "Par": "2"
+  },
+  {
+    "Reagent": "HDLC",
+    "Side": "B",
+    "Inst": "CH",
+    "Par": "2"
+  },
+  {
+    "Reagent": "IgA2",
+    "Side": "2",
+    "Inst": "CH",
+    "Par": "2"
+  },
+  {
+    "Reagent": "IgG2",
+    "Side": "2",
+    "Inst": "CH",
+    "Par": "2"
+  },
+  {
+    "Reagent": "IgM2",
+    "Side": "2",
+    "Inst": "CH",
+    "Par": "2"
+  },
+  {
+    "Reagent": "IP",
+    "Side": "B",
+    "Inst": "CH",
+    "Par": "2"
+  },
+  {
+    "Reagent": "Iron_2",
+    "Side": "B",
+    "Inst": "CH",
+    "Par": "2"
+  },
+  {
+    "Reagent": "LDLC",
+    "Side": "B",
+    "Inst": "CH",
+    "Par": "2"
+  },
+  {
+    "Reagent": "LDLP",
+    "Side": "B",
+    "Inst": "CH",
+    "Par": "2"
+  },
+  {
+    "Reagent": "Lip",
+    "Side": "B",
+    "Inst": "CH",
+    "Par": "2"
+  },
+  {
+    "Reagent": "MDN",
+    "Side": "B",
+    "Inst": "CH",
+    "Par": "1.5"
+  },
+  {
+    "Reagent": "Mg",
+    "Side": "B",
+    "Inst": "CH",
+    "Par": "2"
+  },
+  {
+    "Reagent": "Op",
+    "Side": "B",
+    "Inst": "CH",
+    "Par": "1.5"
+  },
+  {
+    "Reagent": "PcP",
+    "Side": "B",
+    "Inst": "CH",
+    "Par": "1.5"
+  },
+  {
+    "Reagent": "PAlb",
+    "Side": "2",
+    "Inst": "CH",
+    "Par": "2"
+  },
+  {
+    "Reagent": "RCRP",
+    "Side": "2",
+    "Inst": "CH",
+    "Par": "2"
+  },
+  {
+    "Reagent": "RF",
+    "Side": "2",
+    "Inst": "CH",
+    "Par": "1.5"
+  },
+  {
+    "Reagent": "Sal",
+    "Side": "B",
+    "Inst": "CH",
+    "Par": "1.5"
+  },
+  {
+    "Reagent": "Tbil_2",
+    "Side": "B",
+    "Inst": "CH",
+    "Par": "2"
+  },
+  {
+    "Reagent": "Thc",
+    "Side": "B",
+    "Inst": "CH",
+    "Par": "1.5"
+  },
+  {
+    "Reagent": "Theo",
+    "Side": "B",
+    "Inst": "CH",
+    "Par": "1.5"
+  },
+  {
+    "Reagent": "TIBC",
+    "Side": "B",
+    "Inst": "CH",
+    "Par": "2"
+  },
+  {
+    "Reagent": "Tob",
+    "Side": "B",
+    "Inst": "CH",
+    "Par": "1.5"
+  },
+  {
+    "Reagent": "TP_2",
+    "Side": "B",
+    "Inst": "CH",
+    "Par": "2"
+  },
+  {
+    "Reagent": "Trf",
+    "Side": "2",
+    "Inst": "CH",
+    "Par": "2"
+  },
+  {
+    "Reagent": "Trig_2",
+    "Side": "B",
+    "Inst": "CH",
+    "Par": "2"
+  },
+  {
+    "Reagent": "UA",
+    "Side": "B",
+    "Inst": "CH",
+    "Par": "2"
+  },
+  {
+    "Reagent": "uAlb2",
+    "Side": "1",
+    "Inst": "CH",
+    "Par": "2"
+  },
+  {
+    "Reagent": "UCFP",
+    "Side": "B",
+    "Inst": "CH",
+    "Par": "2"
+  },
+  {
+    "Reagent": "UN_c",
+    "Side": "B",
+    "Inst": "CH",
+    "Par": "2"
+  },
+  {
+    "Reagent": "Vanc",
+    "Side": "B",
+    "Inst": "CH",
+    "Par": "1.5"
+  },
+  {
+    "Reagent": "aHAVM",
+    "Side": "1",
+    "Inst": "IM",
+    "Par": "2"
+  },
+  {
+    "Reagent": "aHBcM",
+    "Side": "1",
+    "Inst": "IM",
+    "Par": "2"
+  },
+  {
+    "Reagent": "aHBs2",
+    "Side": "1",
+    "Inst": "IM",
+    "Par": "2"
+  },
+  {
+    "Reagent": "aHCV",
+    "Side": "1",
+    "Inst": "IM",
+    "Par": "2"
+  },
+  {
+    "Reagent": "CHIV",
+    "Side": "1",
+    "Inst": "IM",
+    "Par": "2"
+  },
+  {
+    "Reagent": "CKMB",
+    "Side": "B",
+    "Inst": "IM",
+    "Par": "2"
+  },
+  {
+    "Reagent": "Cor",
+    "Side": "B",
+    "Inst": "IM",
+    "Par": "2"
+  },
+  {
+    "Reagent": "Fer",
+    "Side": "B",
+    "Inst": "IM",
+    "Par": "2"
+  },
+  {
+    "Reagent": "Fol",
+    "Side": "B",
+    "Inst": "IM",
+    "Par": "2"
+  },
+  {
+    "Reagent": "FT3",
+    "Side": "B",
+    "Inst": "IM",
+    "Par": "1"
+  },
+  {
+    "Reagent": "FT4",
+    "Side": "B",
+    "Inst": "IM",
+    "Par": "1"
+  },
+  {
+    "Reagent": "HAVT",
+    "Side": "1",
+    "Inst": "IM",
+    "Par": "2"
+  },
+  {
+    "Reagent": "HBcT2",
+    "Side": "1",
+    "Inst": "IM",
+    "Par": "2"
+  },
+  {
+    "Reagent": "HBSII",
+    "Side": "1",
+    "Inst": "IM",
+    "Par": "2"
+  },
+  {
+    "Reagent": "HBSII Conf",
+    "Side": "1",
+    "Inst": "IM",
+    "Par": "2"
+  },
+  {
+    "Reagent": "PBNPII",
+    "Side": "B",
+    "Inst": "IM",
+    "Par": "2"
+  },
+  {
+    "Reagent": "PTH",
+    "Side": "B",
+    "Inst": "IM",
+    "Par": "2"
+  },
+  {
+    "Reagent": "SYPH",
+    "Side": "1",
+    "Inst": "IM",
+    "Par": "2"
+  },
+  {
+    "Reagent": "T3",
+    "Side": "B",
+    "Inst": "IM",
+    "Par": "1"
+  },
+  {
+    "Reagent": "T4",
+    "Side": "B",
+    "Inst": "IM",
+    "Par": "1"
+  },
+  {
+    "Reagent": "ThCG",
+    "Side": "B",
+    "Inst": "IM",
+    "Par": "1"
+  },
+  {
+    "Reagent": "TnIH",
+    "Side": "B",
+    "Inst": "IM",
+    "Par": "3"
+  },
+  {
+    "Reagent": "TSH3ULII",
+    "Side": "B",
+    "Inst": "IM",
+    "Par": "1"
+  },
+  {
+    "Reagent": "TSTII",
+    "Side": "B",
+    "Inst": "IM",
+    "Par": "2"
+  },
+  {
+    "Reagent": "VB12",
+    "Side": "B",
+    "Inst": "IM",
+    "Par": "1"
+  },
+  {
+    "Reagent": "VitD",
+    "Side": "B",
+    "Inst": "IM",
+    "Par": "2"
+  }
 ]
