@@ -2,5 +2,4 @@
     {"name": "A1c_E", "Instrument": "CH", "Side":"1", "Par":"2"},
     {"name": "Acet", "Instrument": "CH", "Side":"Both", "Par":"1.5"},
     {"name": "Alb", "Instrument": "CH", "Side":"Both", "Par":"2"}
-
 ]

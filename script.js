@@ -4,7 +4,7 @@
 fetch("inventory.json")
     .then((response) => response.json())
     .then((inventory) => { 
-        createTable(inventory.reagents);
+        createTable(inventory);
     })
     .catch(error => console.error('Error:', error))
 
@@ -21,7 +21,7 @@ function createTable(inventory){
 
         //This section defines what tableHead is
         let row = tableHead.insertRow();
-        Object.keys(data[0]).forEach(key=>{
+        Object.keys(inventory[0]).forEach(key=>{
             let th = document.createElement('th');
             th.textContent = key.toUpperCase();
             row.appendChild(th);
